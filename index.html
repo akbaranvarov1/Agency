@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- tailwind cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- main css -->
+    <link rel="stylesheet" href="./src/styles/extra.css" />
+    <!-- icon box -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <title>lesson-1</title>
+  </head>
+
+  <body>
+    <!-- header start -->
+    <header>
+      <div class="container mx-auto">
+        <nav class="nav flex justify-between items-center h-[85px] mt-[54px]">
+          <a href="#"
+            ><img
+              src="./src/images/Logo.svg"
+              alt="logo"
+              class="nav__logo ml-3 sm:ml-5 md:ml-0"
+          /></a>
+
+          <ul
+            class="nav__ul hidden md:flex justify-between items-center lg:w-4/12 md:w-8/12"
+          >
+            <li class="nav__ul--list">
+              <a
+                href="#"
+                class="nav__ul--item-link hover:text-orange-500 duration-200"
+                >About</a
+              >
+            </li>
+            <li class="nav__ul--list">
+              <a
+                href="#"
+                class="nav__ul--item-link hover:text-orange-500 duration-200"
+                >Services</a
+              >
+            </li>
+            <li class="nav__ul--list">
+              <a
+                href="#"
+                class="nav__ul--item-link hover:text-orange-500 duration-200"
+                >Client</a
+              >
+            </li>
+            <li class="nav__ul--list">
+              <a
+                href="#"
+                class="nav__ul--item-link hover:text-orange-500 duration-200"
+                >Blog</a
+              >
+            </li>
+            <li class="nav__ul--list">
+              <a
+                href="#"
+                class="nav__ul--item-link hover:text-orange-500 duration-200"
+                >Contact</a
+              >
+            </li>
+          </ul>
+
+          <i class="bx bx-menu nav__menu text-3xl block sm:block md:hidden"></i>
+        </nav>
+      </div>
+    </header>
+    <!-- header end-->
+
+    <main>
+      <section class="intro w-full mt-8">
+        <div class="container mx-auto">
+          <div
+            class="intr-wrapper pl-0 md:pl-[76px] relative bg-[url('./src/images/Background.jpg')] h-[707px] rounded-[35px] bg-no-repeat bg-cover bg-center"
+          >
+            <div
+              class="intro__text max-w-[420px] h-auto px-[8px] pt-[216px] relative sm:z-20"
+            >
+              <h1
+                class="text-white text-[46px] md:text-[50px] font-bold leading-[71px]"
+              >
+                Go digital with us
+              </h1>
+
+              <p class="text-white leading-[26px] mt-[18px]">
+                We have designed hundreds of websites and helped improve their
+                online performance through SEO, SEM and Social Media Marketing
+              </p>
+
+              <button
+                class="w-[264px] mt-[50px] h-[67px] bg-[#FAFAFA] rounded-[35px] text-[#303948] text-[22px] hover:bg-[#ffffff8e] hover:border-spacing-4 border hover:border-cyan-400"
+              >
+                See Portofolio
+              </button>
+            </div>
+
+            <img
+              src="./src/images/business.png"
+              alt="buisness man"
+              class="absolute hidden sm:block right-0 top-0 sm:z-10"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <section class="hero w-full mx-auto">
+      <div class="container mx-auto">
+        <div class="relative">
+          <div
+            class="bg-[#14213D] bg-[url(./src/images/about.svg)] w-[1039px] h-[326px] mx-auto absolute bottom-[-150px] left-[10%] z-10 rounded-[35px]"
+          >
+            <div
+              class="flex justify-center items-baseline mt-[97px] px-[97px] flex-col w-[934px] h-[132px]"
+            >
+              <h2
+                class="text-white text-[36px] font-bold flex justify-center items-center"
+              >
+                We are experienced
+              </h2>
+              <p class="text-white text=[18px] leading-[26px]">
+                We have been around for a long time since 2010, thousands of
+                products have been created, we are always here to provide new
+                innovations for you
+              </p>
+            </div>
+            <img
+              src="./src/images/Arrow.svg"
+              alt="arrow"
+              class="pl-[937px] mt-[3px]"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="intro_client w-full mx-auto">
+      <div class="container mx-auto">
+        <div
+          class="client_box w-[1260px] h-[353px] mx-auto mt-[160px] flex justify-center items-center"
+        >
+          <div class="details_client w-[566px] h-[220px]mx-auto">
+            <h2
+              class="client-title text-[#303948] text-[36px] flex justify-center items-center font-[500]"
+            >
+              Client
+            </h2>
+            <p
+              class="client-text text-[#303948] text-[18px] flex justify-center items-center font-[400] mt-[25px]"
+            >
+              Using Our Experience To Make Your Digital Experience Brighter
+            </p>
+            <div
+              class="comp_imgs flex justify-between items-center mx-auto mt-[72px]"
+            >
+              <a href="./index.html">
+                <img
+                  src="./src/images/microsoft.svg"
+                  alt=""
+                  class="flex justify-between items-center"
+                />
+              </a>
+              <a href="./index.html">
+                <img
+                  src="./src/images/google.svg"
+                  alt=""
+                  class="flex justify-between items-center"
+                />
+              </a>
+              <a href="./index.html">
+                <img
+                  src="./src/images/amazon.svg"
+                  alt=""
+                  class="flex justify-between items-center"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section_three w-full mx-auto">
+      <div class="container mx-auto">
+        <div
+          class="box_help w-[1260px] h-[905px] flex justify-between mt-[16px]"
+        >
+          <div class="box_help-left">
+            <div class="radius bg-[#E5E5E5] rounded-[35px] w-[522px] h-[743px]">
+              <img
+                src="./src/images/dotteds.svg"
+                alt=""
+                class="absolute ml-[413px] mt-[-30px]"
+              />
+              <img
+                src="./src/images/Ellipse.svg"
+                alt=""
+                class="absolute mt-[356px] ml-[-30px]"
+              />
+              <img
+                src="./src/images/peoples.png"
+                alt="main-img"
+                class="main-img"
+              />
+            </div>
+          </div>
+          <div
+            class="box_help-right w-[639px] h-[865px] flex justify-between items-start"
+          >
+            <div class="card2 mt-10 ml-[60px]">
+              <div class="intro1">
+                <p class="intro--p font-[400] text-[18px] text-[#303948]">
+                  Who We Help
+                </p>
+                <h2
+                  class="w-[505px] font-[500] text-[36px] text-[#14213D] leading-[51px]"
+                >
+                  Specific challenges require specific solutions
+                </h2>
+                <p
+                  class="pt-[24px]font-[400] text-[18px] text-[#59616D] leading-[25px]"
+                >
+                  Some of the industries our digital agency specialises in
+                </p>
+              </div>
+              <div class="intro1 mt-[82px] flex">
+                <div class="intro1-top">
+                  <div class="line-1 flex items-center">
+                    <img src="./src/images/net.svg" alt="icon" class="icon" />
+                    <p class="ml-[13px] text-[#303948] font-[16px]">
+                      Web & Mobile Apps
+                    </p>
+                  </div>
+                  <p
+                    class="mt-[26px] w-[223px] text-[18px] font-[500] leading-[25px] text-[#59616D]"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                </div>
+                <div class="intro1-top ml-[94px]">
+                  <div class="line-1 flex items-center">
+                    <img src="./src/images/box.svg" alt="icon" class="icon" />
+                    <p class="ml-[13px] text-[#303948] font-[16px]">
+                      Design Services
+                    </p>
+                  </div>
+                  <p
+                    class="mt-[26px] w-[223px] text-[18px] font-[500] leading-[25px] text-[#59616D]"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                </div>
+              </div>
+              <div class="intro1 mt-[82px] flex">
+                <div class="intro1-bottom">
+                  <div class="line-1 flex items-center">
+                    <img src="./src/images/seo.svg" alt="icon" class="icon" />
+                    <p class="ml-[13px] text-[#303948]">SEO</p>
+                  </div>
+                  <p
+                    class="mt-[26px] w-[223px] text-[18px] font-[500] leading-[25px] text-[#59616D]"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                </div>
+                <div class="intro1-bottom ml-[94px]">
+                  <div class="line-1 flex items-center">
+                    <img
+                      src="./src/images/security.svg"
+                      alt="icon"
+                      class="icon"
+                    />
+                    <p class="ml-[13px] text-[#303948]">Security Tester</p>
+                  </div>
+                  <p
+                    class="mt-[26px] w-[223px] text-[18px] font-[500] leading-[25px] text-[#59616D]"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <article>
+      <div class="container w-[1440px] mx-auto">
+        <div class="box pl-[98px] flex mx-auto ml-[-50px]">
+          <div class="box--card1 mt-[91px]">
+            <h3
+              class="w-[556px] font-[500] text-[36px] leading-[51px] text-[#303948]"
+            >
+              How does our process work?
+            </h3>
+            <p
+              class="w-[485px] font-[400] mt-[52px] text-[18px] leading-[25px] text-[#59616D]"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <button
+              class="w-[262px] h-[67px] mt-[60px] text-[26px] rounded-[35px] bg-[#14213D] text-[#FAFAFA] hover:bg-[#59616D] hover:border-spacing-4 border hover:border-cyan-400"
+            >
+              See Details
+            </button>
+          </div>
+          <div class="box--card2 ml-[123px]">
+            <div class="card-2-img flex">
+              <img
+                src="./src/images/Ellipse-opc.svg"
+                alt="elli1"
+                class="absolute ml-[470px] mt-[-40px]"
+              />
+              <img src="./src/images/hadpen.svg" alt="img1" />
+              <img src="./src/images/komp.svg" alt="img2" class="ml-[22px]" />
+            </div>
+            <div class="card-2-img2 flex">
+              <img
+                src="./src/images/moon.svg"
+                alt="elli"
+                class="absolute ml-[-60px] mt-[70px]"
+              />
+              <img src="./src/images/humanss.svg" alt="mg3" class="mt-[22px]" />
+              <img
+                src="./src/images/humcomp.svg"
+                alt="img4"
+                class="ml-[22px] mt-[22px] z-10"
+              />
+              <img
+                src="./src/images/dot_yellow.svg"
+                alt="grid2"
+                class="grid2 absolute z-0 mt-[139px] ml-[370px]"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <section class="w-full mx-auto mt-[76px]">
+      <div class="container mx-auto">
+        <div class="box-product w-[1260px] h-[874px]">
+          <div class="boxtop-left flex mx-auto">
+            <div class="topleft_titles">
+              <p class="top_box text-[#303948] text-[16px] leading-[26px]">
+                Our Product
+              </p>
+              <h4 class="box_top title text-[#14213D] text-[36px] le">
+                We’ll let our work speak for itself
+              </h4>
+              <p class="text_our text-[#59616D] text-[18px]">
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+              </p>
+            </div>
+
+            <div class="img-left flex justify-between mx-auto ml-[462px]">
+              <div
+                class="imgtop-left flex justify-center items-center w-[80px] h-[80px] bg-[#14213D] rounded-[35px] hover:bg-slate-400"
+              >
+                <img src="./src/images/arrowleft.svg" alt="" />
+              </div>
+              <div
+                class="imgtop-right flex justify-center items-center ml-[80px] w-[80px] h-[80px] bg-[#14213D] rounded-[35px] hover:bg-slate-400"
+              >
+                <img src="./src/images/arrowright.svg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="boxend flex justify-between items-center w-[1121px] h-[536px] mx-auto mt-[94px]"
+          >
+            <div class="card-1 text-center w-[300px] h-[530px]">
+              <img src="./src/images/mozayka.svg" alt="" />
+              <h2
+                class="card1-title text-[#14213D] text-[36px] leading-[51px] font-[500] pt-[36px] pb-[16px]"
+              >
+                PT. ABCDE
+              </h2>
+              <p class="card1-text text-[#59616D] text-[18px] font-[400]">
+                Web Development
+              </p>
+              <button
+                class="w-[262px] h-[67px] mt-[60px] text-[26px] border-none rounded-[35px] bg-[#14213D] text-[#FAFAFA] hover:bg-[#59616D] hover:border-spacing-4 border hover:border-cyan-400"
+              >
+                See Details
+              </button>
+            </div>
+
+            <div class="card-1 text-center w-[300px] h-[530px]">
+              <img src="./src/images/pazell.svg" alt="" />
+              <h2
+                class="card1-title text-[#14213D] text-[36px] leading-[51px] font-[500] pt-[36px] pb-[16px]"
+              >
+                PT. ABCDE
+              </h2>
+              <p class="card1-text text-[#59616D] text-[18px] font-[400]">
+                Web Development
+              </p>
+              <button
+                class="w-[262px] h-[67px] mt-[60px] text-[26px] border-none rounded-[35px] bg-[#14213D] text-[#FAFAFA] hover:bg-[#59616D] hover:border-spacing-4 border hover:border-cyan-400"
+              >
+                See Details
+              </button>
+            </div>
+
+            <div class="card-1 text-center w-[300px] h-[530px]">
+              <img src="./src/images/cospace.svg" alt="" />
+              <h2
+                class="card1-title text-[#14213D] text-[36px] leading-[51px] font-[500] pt-[36px] pb-[16px]"
+              >
+                PT. ABCDE
+              </h2>
+              <p class="card1-text text-[#59616D] text-[18px] font-[400]">
+                Web Development
+              </p>
+              <button
+                class="w-[262px] h-[67px] mt-[60px] text-[26px] border-none rounded-[35px] bg-[#14213D] text-[#FAFAFA] hover:bg-[#59616D] hover:border-spacing-4 border hover:border-cyan-400"
+              >
+                See Details
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container max-w-[1440px] mx-auto px-[90px]">
+        <div class="wrapper flex h-[864px]">
+          <div class="wrapper--card-1 relative">
+            <img
+              src="./src/images/kvad.svg"
+              alt=""
+              class="absolute top-[35%] left-[-15%] z-[-2]"
+            />
+            <img
+              src="./src/images/Ellipse2.svg"
+              alt=""
+              class="absolute top-[70%] right-[-15%]"
+            />
+            <img
+              src="./src/images/dotteds.svg"
+              alt=""
+              class="absolute top-[12%] right-[-25%] z-[-2]"
+            />
+            <img
+              src="./src/images/dot_yellow.svg"
+              alt=""
+              class="absolute top-[18%] right-[-10%]"
+            />
+            <img
+              src="./src/images/smile.svg"
+              alt="wans-2"
+              class="wans-2 pt-[168px] z-10"
+            />
+          </div>
+          <div class="wrapper--card-2 mt-[311px] ml-[135px]">
+            <h3
+              class="card-2-h3 font-[500] text-[36px] max-w-[615px] text-[#14213D]"
+            >
+              Testimonials by them
+            </h3>
+            <p
+              class="card--p-2 max-w-[627px] text-[24px] font-[400] leading-[34px] text-[#59616D] mt-5"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. <b>-Joe Z</b>
+            </p>
+            <div
+              class="img-l-r flex ml-[457px] mt-[136px] w-48 justify-between"
+            >
+              <a
+                href="#"
+                class="w-[80px] h-[80px] bg-[#14213D] rounded-[35px] hover:bg-slate-400 flex items-center justify-center"
+              >
+                <img src="./src/images/arrowleft.svg" alt="left" class="left"
+              /></a>
+              <a
+                href="#"
+                class="w-[80px] h-[80px] bg-[#14213D] rounded-[35px] hover:bg-slate-400 flex items-center justify-center"
+                ><img
+                  src="./src/images/arrowright.svg"
+                  alt="right"
+                  class="right"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="w-[1260px] h-[581px] mx-auto mt-[74px]">
+      <div class="container mx-auto">
+        <div
+          class="footer_box flex items-center justify-between bg-[url('./src/images/bac_footer.svg')] w-[1234px] h-[483px] mx-auto rounded-[50px] flex justify-between items-center"
+        >
+        <div class="mt-[69px] mr-[287px]">
+          <img src="./src/images/logo-dummy.svg" alt="" class="mb-[40px]">
+          <p class=" mb-[25px] font-normal text-[20px] leading-[28px]">Go digital with us</p>
+          <p class="font-normal text-[20px] leading-[28px]">50 Raya Building</p>
+          <p class=" mb-[163px] font-normal text-[20px] leading-[28px]"> Call us: 123-456-678</p>
+          <p class=" font-normal text-[20px] leading-[28px]">Copyright © 2021 Steelthemes. All Rights Reserved.</p>
+        </div>
+          <div
+            class="footer-right relative flex justify-between items-center w-[309px] h-[483px] mx-auto "
+          >
+            <ul class="gap-[5px] mt-[22px] mr-[24px]">
+              <li class="mb-[9px]">
+                <a class="font-bold text-[20px] leading-[28px]" href="#"
+                  >Company</a
+                >
+              </li>
+              <li class="mb-[9px]">
+                <a class="font-normal text-[20px] leading-[28px]" href="#"
+                  >About</a
+                >
+              </li>
+              <li class="mb-[9px]">
+                <a class="font-normal text-[20px] leading-[28px]" href="#"
+                  >Blog</a
+                >
+              </li>
+              <li class="mb-[9px]">
+                <a class="font-normal text-[20px] leading-[28px]" href="#"
+                  >Gallery</a
+                >
+              </li>
+              <li class="mb-[9px]">
+                <a class="font-normal text-[20px] leading-[28px]" href="#"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+            <ul class=" mt-[5px] ">
+              <li class="mb-[11px]">
+                <a class="font-bold text-[20px] leading-[28px]" href="#"
+                  >Social Media</a
+                >
+              </li>
+              <li class="mb-[11px]">
+                <a class="font-normal text-[20px] leading-[28px]" href="#"
+                  >Facebook</a
+                >
+              </li>
+              <li class="mb-[11px]">
+                <a class="font-normal text-[20px] leading-[28px]" href="#"
+                  >Instagram</a
+                >
+              </li>
+              <li class="mb-[11px]">
+                <a class="font-normal text-[20px] leading-[28px]" href="#"
+                  >Twitter</a
+                >
+              </li>
+            </ul>
+       
+            <img
+              src="./src/images/whtiekvad.svg"
+              alt=""
+              class="absolute right-[-15%] top-[5%]"
+            />
+            <img
+              src="./src/images/footerdotright.svg"
+              alt=""
+              class="absolute right-[-25%] top-[8%]"
+            />
+            <img
+              src="./src/images/bluekvad.svg"
+              alt=""
+              class="absolute right-[20%] bottom-[10%]"
+            />
+            <img
+              src="./src/images/prazkvad.svg"
+              alt=""
+              class="absolute right-[-35%] bottom-[0.5%]"
+            />
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
